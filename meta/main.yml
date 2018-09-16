@@ -1,0 +1,16 @@
+galaxy_info:
+  license: license (GPLv2, CC-BY, etc)
+  min_ansible_version: 1.0
+  platforms:
+    - name: Centos
+      versions:
+      - all
+  categories:
+      - networking:f5:bigip
+  galaxy_tags:
+    - networking
+    - netops
+    - F5ve
+    - F5
+  dependencies:
+    - { role: f5_netops_ve }
